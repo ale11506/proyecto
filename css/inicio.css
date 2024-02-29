@@ -1,0 +1,91 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
+    
+    }
+.nombre{
+height: 1.3cm;
+ border: solid;
+ border-radius: 20px;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ background-color: cornflowerblue;
+color: rgb(3, 57, 68);
+text-shadow: 15px 8px 20px;
+ 
+}
+.cuadro{
+    width: 600px;
+    height: 650px;
+    background-image: url(../imagenes/) ;
+    background-size: cover;
+    border: solid 5px;
+    border-color: rgb(6, 39, 67);
+    margin-left: 25%;
+    text-align: center;
+    color:rgb(35, 33, 30);
+    font-size: 5mm;
+    
+}
+.logo{
+    margin-top: -37.5px; 
+}
+
+.farmacia{
+    margin-top: 0%;
+    background-color: rgba(13, 126, 224, 0.795);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    
+}
+.des{
+    border-style: dotted;
+    font-size: medium;
+    background-color: rgba(16, 165, 219, 0.763);
+    color:black
+
+}
+
+.menu{
+    background-color: rgb(26, 43, 62);
+}
+ul{
+    overflow: hidden;
+}
+ul li{
+    display: inline-block;
+    padding: 5px 6px;
+}
+li a{
+     color:bisque;
+     text-decoration: none;
+    }
+
+li:hover{
+    background-color: cornflowerblue;
+}
+
+.dropdown li{
+    display: block;
+    background: rgb(0, 0, 0);
+    padding: 5px 5px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content li:hover{
+    background:rgb(9, 87, 181);
+}
+
+
+.fom{
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
